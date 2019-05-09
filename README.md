@@ -5,7 +5,7 @@
 * Also used mybatis for convenience.
 * Be careful with entering. I had several errors because I didn't use enter on mybatis-config.xml
 * This setting can help you to print "this is home"(localhost:8080) and list which is on your database(localhost:8080/api).
-
+---
 * 1)First, go to https://start.spring.io/ ,I used gradle project, java, 2.1.4, and added two dependencies, web and devtools.
 * 2)Opened that file on VSCode, and go to the "build.gradle", and added dependencies.
 * 3)And opened "application.properties" on resources/, and added properties include mybatis.
